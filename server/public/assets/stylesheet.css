@@ -1,0 +1,141 @@
+*{
+    font-family:Helvetica,Arial, sans-serif;
+}
+body {
+  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ricepaper_v3.png);
+}
+h2{
+    margin-left:20px;
+    margin-right:20px;
+    border-bottom:1px solid;
+}
+ul{
+    clear:both;
+}
+li{
+    margin-right:20px;
+    margin-bottom:10px;
+}
+
+#container{
+    width:800px;
+    margin:auto;
+}
+#whitespace{
+    height:100px;
+    width:726px;
+    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ricepaper_v3.png);
+    position:fixed;
+}
+
+header {
+    height:100px;
+    width:720px;
+    border:solid black 1px;
+    border-radius:5px;
+    margin-top:-10px;
+    margin-bottom:5px;
+    background-color:#63707A;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position:fixed;
+    clear:both;
+}
+
+.name{
+    font-family:"Times New Roman", Georgia, Serif;
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+.info{
+    float:right;
+    margin-right:20px;
+    margin-top:10px;
+    color:black;
+    font-family:"Times New Roman", Georgia, Serif;
+}
+#address{
+    clear:left;
+    width:325px;
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+#phone{
+   width:100px;
+   float:right;
+   margin-right:20px;
+   margin-top:10px;
+}
+figure {
+    width: 100px; 
+    height: 100px; 
+    overflow: hidden;
+}
+ figure img{
+    height:140px;
+    width:140px;
+    display:block;
+    margin-left:-35px;
+    margin-top:-10px;
+    border-radius:5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position:fixed;
+    overflow:hidden;
+}
+.align{
+   margin-left:20px; 
+}
+aside {
+    height:1150px;
+    width:150px;
+    border:solid black 1px;
+    border-radius:5px;
+    margin-top:100px;
+    margin-bottom:10px;
+    background: linear-gradient(to bottom, #55604C, #444D3D);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    float:left;
+    
+    
+}
+main {
+    height:1150px;
+    width:558px;
+    border:solid black 1px;
+    border-radius:5px;
+    margin-bottom:10px;
+    margin-top:100px;
+    margin-left:10px;
+   background-color:#83887E;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   float:left;
+}
+ footer{
+    height:100px;
+    width:720px;
+    border:solid black 1px;
+    border-radius:5px;
+    clear:both;
+    vertical-align:top;
+   background-color:#63707A;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#social{
+    float:right;
+    text-align:right;
+}
+#social p{
+    margin-right:20px;
+}
+#social li{
+    display:inline;
+    text-decoration:none;
+}
+#social li img{
+    height:50px;
+    width:50px;
+    margin-top:-10px;
+    margin-right:20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
